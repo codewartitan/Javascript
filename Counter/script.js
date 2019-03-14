@@ -13,7 +13,7 @@ function incrementCounter(){
      if(counter.innerHTML>'0'){
      counter.style.color='green';
      }
-     else if(counter.innerHTML==='0'){
+     else if(counter.innerHTML==='0'){ 
         counter.style.color='black'     
     }
     counter.animate([{opacity:'0.2'},{opacity:'1.0'}],
